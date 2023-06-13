@@ -1,0 +1,4 @@
+apt-get update && apt-get -y --no-install-recommends install --fix-missing gdb vim tmux libxml2-dev libcairo2-dev libsqlite3-dev libpq-dev libssh2-1-dev unixodbc-dev libcurl4-openssl-dev libssl-dev libbz2-dev liblzma-dev python3-pip libz-dev libpng-dev default-jre default-jdk libjpeg-dev libglpk-dev libxt-dev
+apt-get -y --no-install-recommends install curl
+apt-get -y install libhdf5-dev # dependency for MacoskoLab/liger R package#
+sudo apt-get install libgfortran5-dbg -y #
